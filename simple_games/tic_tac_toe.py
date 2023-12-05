@@ -1,7 +1,7 @@
 def display_board(board):
     for row in board:
         print(" | ".join(row))
-        print("-" * 5)
+        print("--" * 5)
 
 
 def is_winner(board, current_symbol):
