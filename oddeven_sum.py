@@ -23,7 +23,7 @@ n = int(input("Enter number of elements : "))
 
 # iterating till the range
 for i in range(0, n):
-    ele = int(input())
+    ele = int(input("Enter element one by one: "))
     # adding the element
     my_lst.append(ele)
 
